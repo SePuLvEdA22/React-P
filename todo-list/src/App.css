@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+input::placeholder {
+  color: #fff;
+  font-size: 14px;
+  font-family: inherit;
+  display: block;
+}
