@@ -17,7 +17,6 @@ function App() {
     setNewTask(event.target.value);
   };
 
-
   /*
   Aquí verificamos que newTask no esté vacío o compuesto solo de espacios. 
   Si es válido, usamos el operador spread (...) para tomar las tareas actuales (tasks) y 
