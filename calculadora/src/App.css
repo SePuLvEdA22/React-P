@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.calculator {
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.display {
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+}
+
+.result {
+  height: 30px;
+  font-size: 18px;
+  color: gray;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}

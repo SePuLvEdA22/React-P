@@ -10,17 +10,14 @@ function App() {
   const [newTask, setNewTask] = useState("");
 
   /*
-  Esta función se ejecuta cada vez que el usuario escribe en el campo de texto (input). 
-  event.target.value obtiene el valor actual del campo, y con setNewTask actualizamos el estado newTask con ese valor.
+  Esta función se ejecuta cada vez que el usuario escribe en el campo de texto (input). event.target.value obtiene el valor actual del campo, y con setNewTask actualizamos el estado newTask con ese valor.
   */
   const handleInputChange = (event) => {
     setNewTask(event.target.value);
   };
 
   /*
-  Aquí verificamos que newTask no esté vacío o compuesto solo de espacios. 
-  Si es válido, usamos el operador spread (...) para tomar las tareas actuales (tasks) y 
-  añadir la nueva tarea al final. Después de agregarla, limpiamos el input (setNewTask('')).
+  Aquí verificamos que newTask no esté vacío o compuesto solo de espacios. Si es válido, usamos el operador spread (...) para tomar las tareas actuales (tasks) y añadir la nueva tarea al final. Después de agregarla, limpiamos el input (setNewTask('')).
   */
   const addTask = () => {
     if (newTask.trim()) {
