@@ -2,12 +2,14 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
+  // Estado para controlar el valor del contador.
   const [count, setCount] = useState(0)
 
+  // Funcion que incrementa en uno el contador.
   const incrementar = () => {
     setCount(count + 1)
   }
-
+  // Funcion que decrementa en uno el contador.
   const decrementar = () => {
     setCount(count - 1)
   }
