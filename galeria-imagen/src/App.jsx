@@ -7,7 +7,7 @@ function Imagen({ ruta, title }) {
   return (
     <div className="section-ga">
       <section>
-        <img src={ruta} alt="" />
+        <img src={ruta} alt={title} />
         <h4>{title}</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore,
